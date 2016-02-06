@@ -1,11 +1,22 @@
 {
-  "name": "'",
+  "name": "pagejstest",
   "version": "1.0.0",
-  "description": "",
+  "description": "learning page js",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "bsf",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaulFein/practicePage.js.git"
+  },
+  "keywords": [
+    "page.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/SaulFein/practicePage.js/issues"
+  },
+  "homepage": "https://github.com/SaulFein/practicePage.js#readme"
 }

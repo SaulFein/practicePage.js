@@ -1,26 +1,15 @@
 page.base('/');
 
       page('/', index);
-      page('./hidden', hidden);
+      page('/hidden', hidden);
 
       page();
 
       function index() {
-        // document.querySelector('p')
-        //   .textContent = 'viewing dicksauce';
+        document.querySelector('#index')
+          .textContent = 'viewing index page';
       }
 
-      function about() {
-        document.querySelector('p')
-          .textContent = 'viewing about';
-      }
-
-      function contact(ctx) {
-        document.querySelector('p')
-          .textContent = 'viewing contact ' + (ctx.params.contactName || '');
-      }
-
-      function hidden (e) {
-        e.preventDefault();
+      function hidden () {
         $('#hideme').hide();
       }
